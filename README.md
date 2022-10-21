@@ -1,10 +1,10 @@
 # About this APP
 
-The Leo Vegas app consumes an API from TMDB but just to search and retrieve some movies. It did not uses the API service to create and manage lists, I used cookies to manage that without the need to create an TMDB account.
+The Leo Vegas app consumes an API from TMDB to search and retrieve movies. 
 
 ## Assumptions
 
-I did used the API at it's full because I prefered to avoid the authentication. To create watch later and favorites I implemented cookies and not implemented pagination, as it was initially just an app to search movies.
+I did used the API at it's full because I prefered to avoid the authentication. To create watch later and favorites I implemented cookies and not implemented pagination, as it was initially an app to search movies by name.
 
 ## Scripts
 
