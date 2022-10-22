@@ -2,7 +2,6 @@
 import './App.css';
 import React, {useEffect, useState} from 'react';
 import Stars from './Stars';
-//import { getMovie } from "./actions/movies";
 import Button from 'react-bootstrap/Button';
 import Collapse from 'react-bootstrap/Collapse';
 

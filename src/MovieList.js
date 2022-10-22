@@ -35,7 +35,7 @@ function MovieList(props) {
     <>
     {
         movieResponse(props.movies)
-    };
+    }
     </>
    );
 }

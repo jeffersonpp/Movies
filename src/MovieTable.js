@@ -56,7 +56,7 @@ function MovieTable(props) {
     <>
     {
         movieResponse(props.movies)
-    };
+    }
     </>
    );
 }
