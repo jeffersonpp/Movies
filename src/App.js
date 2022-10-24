@@ -19,6 +19,7 @@ function App() {
   }
 
   const startSearch = async()=>{
+    setTitle('Search: ' + search);
     const data = await searchMovie(search);
     setMovies(data.results)
   }
