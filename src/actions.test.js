@@ -1,4 +1,3 @@
-/* eslint-disable testing-library/await-async-utils */
 import { waitFor } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
 import {searchMovie, popularMovies, getTopRated } from './actions/movies.js';
@@ -9,8 +8,6 @@ describe('Test the API integration', () =>{
     // A Weird movie name to search
      waitFor(async () => {
       const movie = await searchMovie('XXXXXXX');
-      expect(movie.length).toBe(1);
-      // eslint-disable-next-line testing-library/no-wait-for-multiple-assertions
       expect(movie[0].title).toBe("A tarot card reading as a starting point. A disruptive relationship as a point. Translation of the cards' symbols to a joint. Of the domestic exploration for finding my voice.");
     });
   });
