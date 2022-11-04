@@ -1,10 +1,6 @@
 # About this APP
 
-The Leo Vegas app consumes an API from TMDB to search and retrieve movies. 
-
-## Assumptions
-
-I did used the API at it's full because I prefered to avoid the authentication. To create watch later and favorites I implemented cookies and not implemented pagination, as it was initially an app to search movies by name.
+This Movies App consumes an API from TMDB to search and retrieve movies. 
 
 ## Scripts
 
@@ -15,5 +11,7 @@ to run the server
 to run tests
 
 ## The Demo APP
-
 You can see it at: [https://jeffersondesousa.com/leovegas](https://jeffersondesousa.com/leovegas)
+
+## Considerations
+This app does not uses redux, context or any other state manager.
