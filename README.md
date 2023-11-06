@@ -1,12 +1,14 @@
-# About this APP
-
-This Movies App uses TMDB data. 
+# Movies App
+A beautifull and responsive application that lists movies. It uses TMDB data. 
 
 
 ## Running This App
 
-### `npm start`
-    <li> to run the server </li>
+### clone this repository
+    with `git clone jeffersonpp/Movies`
 
-### `npm test` 
-    <li> to run tests </li>
+### npm start
+    to run the server
+
+### npm test 
+    to run tests
