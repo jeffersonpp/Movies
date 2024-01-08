@@ -1,5 +1,5 @@
 # Movies App
-A beautifull and responsive React app that uses Axios to consume TMDB data and lists movies. 
+A beautifull and responsive React app that uses Axios to consume TMDB API and lists movies. 
 
 
 ## Running This App
