@@ -1,5 +1,5 @@
 # Movies App
-A beautifull and responsive application that lists movies. It uses TMDB data. 
+A beautifull and responsive React application that lists movies. It uses TMDB data. 
 
 
 ## Running This App
